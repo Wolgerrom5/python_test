@@ -1,2 +1,6 @@
-a = int(input()), int(input())
-print(a[0] if a[0] < a[1] else a[1])
+a = int(input('Введите количество рыб, пойманных N:'))
+b = int(input('Введите количество рыб, пойманных K:'))
+if a < b:
+    print(a)
+else:
+    print(b)
